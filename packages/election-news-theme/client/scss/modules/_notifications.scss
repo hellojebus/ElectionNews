@@ -1,0 +1,42 @@
+.notification-icon {
+  fill: $primary-color;
+  vertical-align: top;
+}
+
+.notification-count {
+  margin-left: 5px;
+}
+
+a.mark-as-read {
+  width: 100%;
+  display: block;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0;
+  padding: 0.5rem 0;
+  text-align: left;
+}
+
+.notification-item {
+  margin-bottom: 1rem;
+  font-size: 16px;
+  &:last-child {
+    border-bottom: 1px rgba(255, 255, 255, 0.2) solid;
+  }
+}
+
+.notification-html p {
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+.notification-html a {
+  text-transform: capitalize;
+}
+
+.notification-timestamp {
+  color: $primary-color;
+  font-size: 12px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  display: block;
+}

@@ -1,0 +1,114 @@
+.post-categories-container {
+  margin-bottom: 2rem;
+  font-size: smaller;
+}
+
+.post-categories-label {
+  margin-right: 0.5rem;
+}
+
+.post-categories {
+  display: inline-block;
+  margin-left: 0;
+}
+
+.post-category,
+.post-domain,
+.post-closed {
+  font-size: 11px;
+  font-weight: 500;
+  color: $dark-grey;
+  background: $lightest-grey;
+  padding: 7px 8px 6px 8px;
+  border-radius: 2px;
+  text-transform: initial;
+  vertical-align: middle;
+  display: inline-block;
+  margin-bottom: 4px;
+
+  &:hover {
+    background: $primary-color !important;
+    // Make sure that tags are highlighted on hover
+    color: $white !important;
+  }
+}
+
+.post-domain {
+  // make sure domains are always highlighted
+  color: $primary-color !important;
+}
+
+.post-category[href$="category/undefined"] {
+  display: none;
+}
+
+.post-closed,
+.post-closed:hover {
+  display: inline-block;
+  background: darken($primary-color, 15) !important;
+  color: $white !important;
+  padding: 7px 8px 6px 8px;
+  margin-bottom: 1rem;
+}
+
+.post-category.category-nashville,
+.post-category.category-dallas {
+  background: $primary-color;
+  color: white;
+}
+
+.posts.list .post:hover {
+  .post-category,
+  .post-domain,
+  .post-category.category-nashville,
+  .post-category.category-dallas {
+    @include large {
+      background: white;
+      color: $dark-grey;
+    }
+  }
+}
+
+.posts.list > .post.sticky {
+  .post-category,
+  .post-domain,
+  .post-category:hover,
+  .post-domain:hover {
+    background: white !important;
+    color: $dark-grey !important;
+  }
+}
+
+// Categories Admin Page
+
+input.category-name,
+input.category-number {
+  margin-bottom: 1rem;
+}
+
+.category-slug {
+  background: $lightest-grey;
+  border: 2px solid $light-grey;
+  padding: 12px;
+  cursor: not-allowed;
+  font-family: monospace;
+  width: 100%;
+}
+
+.category-save {
+  margin-bottom: 3rem;
+}
+
+.launch-icon {
+  vertical-align: middle;
+  display: inline-block;
+  color: inherit;
+  margin-top: -1px;
+  margin-left: 2px;
+  padding-right: 1px;
+  box-sizing: content-box;
+
+  path {
+    fill: currentColor;
+  }
+}

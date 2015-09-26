@@ -1,0 +1,37 @@
+input[type="search"].custom-search-field {
+  -webkit-appearance: none;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  margin: 0;
+
+  width: 100%;
+  height: $header-height;
+  font-size: 1rem;
+  padding-left: $padding * 2.25;
+  padding-right: $padding;
+
+  background: $white url(../../public/search.svg) no-repeat;
+  background-position: $padding center;
+  background-size: 14px;
+  border-bottom: 1px solid $lightest-grey;
+
+  &::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    cursor: pointer;
+    content: url(../../public/close-icon.svg);
+  }
+
+  &::-webkit-input-placeholder {
+    color: $light-grey;
+  }
+
+  &:focus {
+    background-color: fade-out($lightest-grey, 0.5);
+  }
+
+  @include small {
+    padding-left: $padding * 1.25;
+    background-position: ($padding / 2) center;
+  }
+}
