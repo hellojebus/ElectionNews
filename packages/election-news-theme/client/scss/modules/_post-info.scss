@@ -1,0 +1,81 @@
+.post-meta,
+.comment-meta {
+  color: $grey;
+  font-size: 10px;
+  transition: opacity 50ms ease;
+  @include small {
+    font-size: 12px;
+    opacity: 1;
+  }
+}
+
+.post-meta {
+  position: relative;
+  padding: 0.75rem 0;
+}
+
+.posts.list .post-meta {
+  @include small {
+    mask-image: linear-gradient(to right, rgba(255,255,255,1) 75%, rgba(255,255,255,0));
+  }
+}
+
+.single-post .post-meta {
+  background: $lightest-grey;
+  font-size: 12px;
+  padding: 1rem;
+  max-height: 50px;
+}
+
+.comment-meta {
+  font-size: 12px;
+}
+
+.posts.list .sticky .post-meta a:hover {
+  color: white;
+}
+
+.post:not(.sticky) .upvoted .upvote,
+.single-post .upvoted .upvote {
+  color: $primary-color;
+}
+
+.post:not(.sticky) .comments-link.commented,
+.single-post .comments-link.commented {
+  color: $primary-color;
+}
+
+.author,
+.upvote-link,
+.points,
+.comments-link,
+.comment-reply,
+.comment-permalink {
+  &:not(:last-child) {
+    margin-right: 1rem;
+  }
+}
+
+.author {
+  margin-left: 0.5rem;
+}
+
+.edit-post {
+  height: 14px;
+  width: 14px;
+}
+
+.post-time {
+  margin-right: 5rem;
+}
+
+// Post Info Icons
+.post-meta svg {
+  vertical-align: middle;
+  fill: currentcolor;
+  margin-right: .25rem;
+}
+
+.upvote-icon {
+  margin-top: -2px;
+}

@@ -1,0 +1,15 @@
+<template name="custom_layout">
+  {{> css}}
+  <!-- {{> modules zone="hero"}} -->
+  <div class="grid-wrap">
+    {{> weld_sidebar}}
+    <main class="content-wrap column">
+      {{> messages}}
+      {{> header}}
+      {{> search}}
+      <div class="content column {{pageName}}">
+        {{> yield}}
+      </div> <!-- content -->
+    </main> <!-- content-wrap -->
+  </div> <!-- grid-wrap -->
+</template>
