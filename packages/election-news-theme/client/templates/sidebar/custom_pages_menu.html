@@ -1,12 +1,11 @@
 <template name="custom_pages_menu">
   <li class="member-menu">
     <ul role="menu">
-      <li>
+     <!-- <li>
         <a href="{{pathFor 'members'}}" class="important">
           {{getSetting 'memberDirectoryName'}}
         </a>
-      </li>
-      <li><a href="http://learn.weld.co/" target="_blank">Knowledge Base</a></li>
+      </li> -->
 
       {{#if hasPages}}
         {{#each pages}}
@@ -26,7 +25,7 @@
       </li>
 
       <!-- Nashville Member Links -->
-      <li class="dropdown">
+     <!-- <li class="dropdown">
         <span class="dropdown-top-level">Nashville</span>
         <div class="dropdown-menu">
           <ul role="menu" aria-labelledby="dLabel">
@@ -34,7 +33,7 @@
             <li><a href="https://plasso.co/s/m8NVRJLF6W" target="_blank">Tip the Studio</a></li>
           </ul>
         </div>
-      </li>
+      </li> -->
 
     </ul>
   </li><!-- member-menu -->
