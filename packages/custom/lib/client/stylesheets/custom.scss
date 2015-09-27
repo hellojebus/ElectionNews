@@ -4,10 +4,14 @@ $grey: #757575;
   .header {
     background-color: #FFFFFF;
     padding: 20px;
+
+    a {
+      color: $grey;
+    }
   }
 
   .search.empty .search-field {
-    background: #dfdfdf; 
+    background: #dfdfdf;
   }
 
   .menu-top-level {
