@@ -34,7 +34,10 @@ Package.onUse(function (api) {
     'lib/client/templates/custom_post_title.html',
     'lib/client/templates/custom_post_title.js',
     'lib/client/stylesheets/custom.scss',
-    'lib/client/custom_templates.js'
+    'lib/client/custom_templates.js',
+
+    //assets
+    'public/logo.png'
   ], ['client']);
 
   // server

@@ -39,8 +39,8 @@ telescope:update-prompt
 ############ Your Custom Packages ############
 
 # custom
-# custom
-election-news-theme
+custom
+#election-news-theme
 #fourseven:scss
 #mystor:device-detection
 #rzymek:fullcalendar
@@ -48,4 +48,4 @@ election-news-theme
 #mizzao:user-status
 #fastclick
 #percolate:intercom
-matteodem:easy-search
+#matteodem:easy-search
