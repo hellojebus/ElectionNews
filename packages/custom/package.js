@@ -29,12 +29,15 @@ Package.onUse(function (api) {
   // client
 
   api.addFiles([
-    'lib/client/templates/hello.html',
-    'lib/client/templates/hello.js',
+    //'lib/client/templates/hello.html',
+    //'lib/client/templates/hello.js',
     'lib/client/templates/custom_post_title.html',
     'lib/client/templates/custom_post_title.js',
     'lib/client/stylesheets/custom.scss',
     'lib/client/custom_templates.js',
+
+    //Custom Layouts
+
 
     //assets
     'public/logo.png'
