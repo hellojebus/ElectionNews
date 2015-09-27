@@ -1,4 +1,29 @@
-.custom-hero-banner{
-  text-align: center;
-  color: purple;
+$grey: #757575;
+
+.outer-wrapper {
+  .header {
+    background-color: #FFFFFF;
+    padding: 20px;
+  }
+
+  .search.empty .search-field {
+    background: #dfdfdf; 
+  }
+
+  .menu-top-level {
+    color: #3a3a3a;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .menu {
+    a {
+      color: $grey;
+      &:hover {
+
+      }
+    }
+  }
+
 }
+
