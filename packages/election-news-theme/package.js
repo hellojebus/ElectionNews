@@ -195,6 +195,7 @@ Package.onUse(function (api) {
     'public/instagram-placeholder.svg',
     'public/cover-photo.jpg',
     'public/resize-handle.svg',
+    'public/logo.png',
 
     // Favicons
     'public/icons/favicon-96x96.png',
