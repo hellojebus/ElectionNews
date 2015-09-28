@@ -1,19 +1,4 @@
-A sample Telescope project. Install [Meteor](http://meteor.com), clone this repository locally and then run the app with:
+##Election News
+Election News is a daily curated list of articles from around the web relating to the upcoming Presidential election.
 
-```
-meteor
-```
-
-This repo includes a few basic customizations on the `custom` branch.
-
-### One-Click Deploy
-
-Deploy on Heroku:
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-Note: if you get a `$ROOT_URL, if specified, must be an URL.` error on deployment, double-check that you're providing the correct URL (typically `http://your-app-name-here.herokuapp.com`).
-
-Deploy on Nitrous:
-
-[![Hack telescopejs/sample-project on Nitrous](https://d3o0mnbgv6k92a.cloudfront.net/assets/hack-l-v1-d464cf470a5da050619f6f247a1017ec.png)](https://lite.nitrous.io/hack_button?source=embed&runtime=meteor&repo=telescopejs%2Fsample-project)
+###Still in Alpha based on TelescopeApp

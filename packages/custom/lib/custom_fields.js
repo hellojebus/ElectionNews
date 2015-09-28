@@ -1,7 +1,7 @@
 // Custom Post Field
 
 Posts.addField({
-  fieldName: 'customPostField',
+  fieldName: 'party',
   fieldSchema: {
     type: String,
     optional: true,
