@@ -11,7 +11,7 @@ $grey: #757575;
   }
 
   .search.empty .search-field {
-    background: #dfdfdf;
+    background: #727272;
   }
 
   .menu-top-level {
@@ -21,6 +21,24 @@ $grey: #757575;
   }
 
   .menu {
+
+    .menu-contents {
+      //max-height: 99999999px;
+    }
+
+    .show-more {
+      //display: none !important;
+      .icon {
+        height: 30px;
+        width: 30px;
+        opacity: 0.5;
+        line-height: 30px;
+        margin: 0 auto;
+        color: #fff;
+        background-color: #8C8C8C;
+        border-radius: 100%;
+      }
+    }
     a {
       color: $grey;
       &:hover {
