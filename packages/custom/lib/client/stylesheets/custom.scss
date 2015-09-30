@@ -69,6 +69,16 @@ $grey: #757575;
     }
   }
 
+  a:hover, .post-content .post-heading .post-title:hover, .upvoted .upvote-link, .downvoted .downvote-link, .upvoted .upvote, .downvoted .downvote, .toggle-actions-link, .post-meta a:hover, .action:hover, .post-actions .icon, .post-share .icon-share {
+    color: #000;
+  }
+
+  .post-category {
+    &:hover {
+      background: #000;
+      color: #fff; 
+    }
+  }
 
   .post-body {
     img {
