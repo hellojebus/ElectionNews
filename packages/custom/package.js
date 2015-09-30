@@ -40,7 +40,9 @@ Package.onUse(function (api) {
 
 
     //assets
-    'public/logo.png'
+    'public/logo.png',
+    'public/favicon.png'
+
   ], ['client']);
 
   // server
