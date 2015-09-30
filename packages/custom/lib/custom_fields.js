@@ -1,5 +1,6 @@
 // Custom Post Field
 
+/*
 Posts.addField({
   fieldName: 'party',
   fieldSchema: {
@@ -8,9 +9,10 @@ Posts.addField({
     editableBy: ["member", "admin"]
   }
 });
+*/
 
 // Custom Comment Field
-
+/*
 Comments.addField({
   fieldName: 'customCommentField',
   fieldSchema: {
@@ -18,10 +20,10 @@ Comments.addField({
     optional: true,
     editableBy: ["member", "admin"]
   }
-});
+});*/
 
 // Custom User Field
-
+/*
 Users.addField({
   fieldName: 'customUserField',
   fieldSchema: {
@@ -29,9 +31,10 @@ Users.addField({
     optional: true,
     editableBy: ["member", "admin"]
   }
-});
+});*/
 
 // Custom Setting Field
+/*
 
 Settings.addField({
   fieldName: "customSettingsField",
@@ -42,4 +45,4 @@ Settings.addField({
       group: "customGroup"
     }
   }
-});
+});*/
