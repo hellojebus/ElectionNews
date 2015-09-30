@@ -20,6 +20,21 @@ $grey: #757575;
     font-weight: 600;
   }
 
+  .post-vote  {
+    .vote-actions {
+      border: none;
+    }
+    .vote-action {
+      font-size: 17px;
+    }
+    .upvoted .upvote-link {
+      color: #000;
+    }
+    .downvote-link {
+      border-top: none;
+    }
+  }
+
   .menu {
 
     .menu-contents {
